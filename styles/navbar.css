@@ -1,0 +1,18 @@
+.navbar #theme-toggle-btn {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 768px) {
+    .navbar #theme-toggle-btn {
+        top: 20px;
+        right: 30px;
+        font-size: 3rem;
+    }
+}
